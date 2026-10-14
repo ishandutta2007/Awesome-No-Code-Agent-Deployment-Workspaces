@@ -147,108 +147,108 @@ Open-source projects offer self-hosting, custom node development, air-gapped sec
 
 ### Open-Source Ecosystem Leaderboard
 
-*Ranked strictly in descending order by GitHub Stars. Badges link directly to each repository's stargazers page.*
+*Ranked strictly in descending order by GitHub_Stars. Badges link directly to each repository's stargazers page.*
 
-| Rank | Repository | Star Count Badge | Primary Focus & Architecture | License | Docker Self-Host |
+| Rank | Repository | Stars_Count Badge | Primary Focus & Architecture | License | Docker Self-Host |
 | :---: | :--- | :---: | :--- | :--- | :---: |
-| 1 | **[n8n](https://github.com/n8n-io/n8n)** | [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Fair-code visual node workflow automation with 70+ native AI/LLM nodes & 400+ SaaS connectors | Sustainable Use (Fair-code) | `docker run -it --rm --name n8n -p 5678:5678 n8nio/n8n` |
-| 2 | **[Dify](https://github.com/langgenius/dify)** | [![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers) | Full-stack LLM application platform: visual workflow canvas, multi-agent orchestrator & RAG engine | Modified Apache 2.0 | `docker compose up -d` |
-| 3 | **[Langflow](https://github.com/langflow-ai/langflow)** | [![GitHub stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers) | Visual Python framework for building multi-agent workflows, ReactFlow canvas & MCP server exporter | Apache 2.0 | `docker run -p 7860:7860 langflowai/langflow:latest` |
-| 4 | **[Open WebUI](https://github.com/open-webui/open-webui)** | [![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers) | Extensible, self-hosted AI interface with custom agent pipelines, Ollama integration & RAG tools | MIT | `docker run -d -p 3000:8080 -v open-webui:/app/backend/data ghcr.io/open-webui/open-webui:main` |
-| 5 | **[RAGFlow](https://github.com/infiniflow/ragflow)** | [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) | Deep-document RAG engine fusing visual document parsing, knowledge graphs & autonomous agent workflows | Apache 2.0 | `docker compose up -d` |
-| 6 | **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** | [![GitHub stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers) | Autonomous software engineering agent workspace capable of modifying code, running bash & web browsing | MIT | `docker run -it --pull=always -u root -p 3000:3000 ghcr.io/all-hands-ai/openhands:main` |
-| 7 | **[Flowise](https://github.com/FlowiseAI/Flowise)** | [![GitHub stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers) | Drag-and-drop UI for LangChain & LlamaIndex components, multi-agent supervisor graphs & chat embeds | Apache 2.0 | `docker run -d -p 3000:3000 flowiseai/flowise` |
-| 8 | **[LibreChat](https://github.com/LibreChat-AI/LibreChat)** | [![GitHub stars](https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=social&color=white)](https://github.com/LibreChat-AI/LibreChat/stargazers) | Enterprise-grade multi-model chat workspace with Agents, MCP support, Code Interpreter & multi-user auth | MIT | `docker compose up -d` |
-| 9 | **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** | [![GitHub stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=social&color=white)](https://github.com/CopilotKit/CopilotKit/stargazers) | The frontend & canvas stack for building in-app AI copilots, generative UI, and agent interactions | MIT | `npm install @copilotkit/react-core` |
-| 10 | **[AgentGPT](https://github.com/reworkd/AgentGPT)** | [![GitHub stars](https://img.shields.io/github/stars/reworkd/AgentGPT?style=social&color=white)](https://github.com/reworkd/AgentGPT/stargazers) | Assemble, configure, and deploy autonomous goal-driven AI agents directly within the browser | GPL-3.0 | `docker compose up` |
-| 11 | **[Sim Studio](https://github.com/simstudioai/sim)** | [![GitHub stars](https://img.shields.io/github/stars/simstudioai/sim?style=social&color=white)](https://github.com/simstudioai/sim/stargazers) | "Figma for AI Agents" — collaborative visual workspace for designing, testing, and deploying multi-agent flows | PolyForm Shield / Apache 2.0 | `docker compose up -d` |
-| 12 | **[Activepieces](https://github.com/activepieces/activepieces)** | [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | MIT-licensed workflow automation where every piece (~400 tools) is exposed as an MCP server for agents | MIT | `docker compose up -d` |
-| 13 | **[Rivet](https://github.com/Ironclad/rivet)** | [![GitHub stars](https://img.shields.io/github/stars/Ironclad/rivet?style=social&color=white)](https://github.com/Ironclad/rivet/stargazers) | Visual graph editor & debugger for AI agent workflows with full TypeScript runtime execution | MIT | Desktop installer / `npm install @ironclad/rivet-node` |
-| 14 | **[OpenRigor](https://github.com/wangyunjeff/OpenRigor)** | [![GitHub stars](https://img.shields.io/github/stars/wangyunjeff/OpenRigor?style=social&color=white)](https://github.com/wangyunjeff/OpenRigor/stargazers) | Clean-room persistent agent workspace with sandboxed tools, durable runs, replayable SSE & artifacts | MIT | `npm run dev` |
+| 1 | **[n8n](https://github.com/n8n-io/n8n)** | [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Fair-code visual node workflow automation with 70+ native AI/LLM nodes & 400+ SaaS connectors | Sustainable Use (Fair-code) | `docker run -it --rm --name n8n -p 5678:5678 n8nio/n8n` |
+| 2 | **[Dify](https://github.com/langgenius/dify)** | [![GitHub_Stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers) | Full-stack LLM application platform: visual workflow canvas, multi-agent orchestrator & RAG engine | Modified Apache 2.0 | `docker compose up -d` |
+| 3 | **[Langflow](https://github.com/langflow-ai/langflow)** | [![GitHub_Stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers) | Visual Python framework for building multi-agent workflows, ReactFlow canvas & MCP server exporter | Apache 2.0 | `docker run -p 7860:7860 langflowai/langflow:latest` |
+| 4 | **[Open WebUI](https://github.com/open-webui/open-webui)** | [![GitHub_Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers) | Extensible, self-hosted AI interface with custom agent pipelines, Ollama integration & RAG tools | MIT | `docker run -d -p 3000:8080 -v open-webui:/app/backend/data ghcr.io/open-webui/open-webui:main` |
+| 5 | **[RAGFlow](https://github.com/infiniflow/ragflow)** | [![GitHub_Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) | Deep-document RAG engine fusing visual document parsing, knowledge graphs & autonomous agent workflows | Apache 2.0 | `docker compose up -d` |
+| 6 | **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** | [![GitHub_Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers) | Autonomous software engineering agent workspace capable of modifying code, running bash & web browsing | MIT | `docker run -it --pull=always -u root -p 3000:3000 ghcr.io/all-hands-ai/openhands:main` |
+| 7 | **[Flowise](https://github.com/FlowiseAI/Flowise)** | [![GitHub_Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers) | Drag-and-drop UI for LangChain & LlamaIndex components, multi-agent supervisor graphs & chat embeds | Apache 2.0 | `docker run -d -p 3000:3000 flowiseai/flowise` |
+| 8 | **[LibreChat](https://github.com/LibreChat-AI/LibreChat)** | [![GitHub_Stars](https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=social&color=white)](https://github.com/LibreChat-AI/LibreChat/stargazers) | Enterprise-grade multi-model chat workspace with Agents, MCP support, Code Interpreter & multi-user auth | MIT | `docker compose up -d` |
+| 9 | **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** | [![GitHub_Stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=social&color=white)](https://github.com/CopilotKit/CopilotKit/stargazers) | The frontend & canvas stack for building in-app AI copilots, generative UI, and agent interactions | MIT | `npm install @copilotkit/react-core` |
+| 10 | **[AgentGPT](https://github.com/reworkd/AgentGPT)** | [![GitHub_Stars](https://img.shields.io/github/stars/reworkd/AgentGPT?style=social&color=white)](https://github.com/reworkd/AgentGPT/stargazers) | Assemble, configure, and deploy autonomous goal-driven AI agents directly within the browser | GPL-3.0 | `docker compose up` |
+| 11 | **[Sim Studio](https://github.com/simstudioai/sim)** | [![GitHub_Stars](https://img.shields.io/github/stars/simstudioai/sim?style=social&color=white)](https://github.com/simstudioai/sim/stargazers) | "Figma for AI Agents" — collaborative visual workspace for designing, testing, and deploying multi-agent flows | PolyForm Shield / Apache 2.0 | `docker compose up -d` |
+| 12 | **[Activepieces](https://github.com/activepieces/activepieces)** | [![GitHub_Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | MIT-licensed workflow automation where every piece (~400 tools) is exposed as an MCP server for agents | MIT | `docker compose up -d` |
+| 13 | **[Rivet](https://github.com/Ironclad/rivet)** | [![GitHub_Stars](https://img.shields.io/github/stars/Ironclad/rivet?style=social&color=white)](https://github.com/Ironclad/rivet/stargazers) | Visual graph editor & debugger for AI agent workflows with full TypeScript runtime execution | MIT | Desktop installer / `npm install @ironclad/rivet-node` |
+| 14 | **[OpenRigor](https://github.com/wangyunjeff/OpenRigor)** | [![GitHub_Stars](https://img.shields.io/github/stars/wangyunjeff/OpenRigor?style=social&color=white)](https://github.com/wangyunjeff/OpenRigor/stargazers) | Clean-room persistent agent workspace with sandboxed tools, durable runs, replayable SSE & artifacts | MIT | `npm run dev` |
 
 ---
 
 ### Detailed Open-Source Profiles
 
-#### 1. [n8n](https://github.com/n8n-io/n8n) [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
+#### 1. [n8n](https://github.com/n8n-io/n8n) [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
 - **Architecture**: Node.js & TypeScript backend with a highly responsive visual node editor. Combines 400+ enterprise integrations with ~70 specialized AI/LLM nodes (LangChain memory, vector store loaders, tool nodes, and multi-agent loops).
 - **License**: Sustainable Use License (Fair-code, free for internal company use).
 - **Key Features**: Human-in-the-loop approval triggers, inline custom JavaScript/Python execution, sub-workflow routing, and webhooks.
 - **Best For**: Advanced automation engineers seeking an enterprise-wide integration hub coupled with agentic execution.
 
-#### 2. [Dify](https://github.com/langgenius/dify) [![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)
+#### 2. [Dify](https://github.com/langgenius/dify) [![GitHub_Stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)
 - **Architecture**: Python (Flask/Celery) + Next.js frontend with PostgreSQL and Redis. Supports five distinct application types: Chatbot, Agent, Text Generator, Chatflow, and Workflow.
 - **License**: Modified Apache 2.0 (commercial SaaS restrictions apply).
 - **Key Features**: Rich visual workflow canvas, built-in RAG ingestion pipeline with chunking and hybrid reranking, prompt engineering sandbox, and a plugin marketplace.
 - **Best For**: Teams needing a turnkey, self-hostable alternative to proprietary LLM cloud backends.
 
-#### 3. [Langflow](https://github.com/langflow-ai/langflow) [![GitHub stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers)
+#### 3. [Langflow](https://github.com/langflow-ai/langflow) [![GitHub_Stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers)
 - **Architecture**: Python backend utilizing ReactFlow on the frontend. Every visual block directly translates into executable Python code with full component customization.
 - **License**: Apache 2.0.
 - **Key Features**: Interactive step-by-step playground, export flows as standalone APIs or Model Context Protocol (MCP) servers, seamless observability with LangSmith and Langfuse.
 - **Best For**: Python developers wanting rapid drag-and-drop prototyping while retaining direct code access.
 
-#### 4. [Open WebUI](https://github.com/open-webui/open-webui) [![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)
+#### 4. [Open WebUI](https://github.com/open-webui/open-webui) [![GitHub_Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)
 - **Architecture**: FastAPI backend + SvelteKit frontend. Supports full offline local inference via Ollama as well as remote OpenAI-compatible endpoints.
 - **License**: MIT.
 - **Key Features**: Modular Pipelines framework for building agentic actions, web search integration, multi-user role-based access control, and document RAG.
 - **Best For**: Organizations establishing a private, internal ChatGPT-style workplace assistant with custom tools.
 
-#### 5. [RAGFlow](https://github.com/infiniflow/ragflow) [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)
+#### 5. [RAGFlow](https://github.com/infiniflow/ragflow) [![GitHub_Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)
 - **Architecture**: Deep document understanding engine combined with agent orchestration, built on Python and Elasticsearch/Infinity.
 - **License**: Apache 2.0.
 - **Key Features**: Visual document template extraction (extracting complex tables, diagrams, and unstructured layouts from PDFs), fused with visual agent conversation flows.
 - **Best For**: Document-heavy enterprise workflows requiring zero hallucination in financial, legal, and engineering documentation.
 
-#### 6. [OpenHands](https://github.com/All-Hands-AI/OpenHands) [![GitHub stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers)
+#### 6. [OpenHands](https://github.com/All-Hands-AI/OpenHands) [![GitHub_Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers)
 - **Architecture**: Python-based autonomous agent framework paired with sandboxed Docker execution environments and interactive web GUI.
 - **License**: MIT.
 - **Key Features**: Autonomous code generation, terminal execution, browser navigation, git branch modification, and PR creation.
 - **Best For**: Engineering teams building automated software maintenance agents, code review bots, and bug-fixing pipelines.
 
-#### 7. [Flowise](https://github.com/FlowiseAI/Flowise) [![GitHub stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers)
+#### 7. [Flowise](https://github.com/FlowiseAI/Flowise) [![GitHub_Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers)
 - **Architecture**: Node.js & TypeScript framework wrapping LangChain and LlamaIndex into a modular drag-and-drop canvas.
 - **License**: Apache 2.0.
 - **Key Features**: Multi-agent supervisor configurations, chat embedding widgets for customer websites, custom tool building, and vector store connectors.
 - **Best For**: Fast visual prototyping of conversational agents, RAG search engines, and web-embeddable bots.
 
-#### 8. [LibreChat](https://github.com/LibreChat-AI/LibreChat) [![GitHub stars](https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=social&color=white)](https://github.com/LibreChat-AI/LibreChat/stargazers)
+#### 8. [LibreChat](https://github.com/LibreChat-AI/LibreChat) [![GitHub_Stars](https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=social&color=white)](https://github.com/LibreChat-AI/LibreChat/stargazers)
 - **Architecture**: Node.js + React. Unified chat frontend supporting multiple LLM providers (Anthropic, OpenAI, Gemini, DeepSeek, Ollama, OpenRouter).
 - **License**: MIT.
 - **Key Features**: Multi-agent workflows, Model Context Protocol (MCP) tool integration, Code Interpreter, Artifacts, and multi-tenant authentication (OAuth/SAML).
 - **Best For**: Teams seeking a unified, feature-packed enterprise web interface for multiple AI agent roles.
 
-#### 9. [CopilotKit](https://github.com/CopilotKit/CopilotKit) [![GitHub stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=social&color=white)](https://github.com/CopilotKit/CopilotKit/stargazers)
+#### 9. [CopilotKit](https://github.com/CopilotKit/CopilotKit) [![GitHub_Stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=social&color=white)](https://github.com/CopilotKit/CopilotKit/stargazers)
 - **Architecture**: React/TypeScript frontend UI library and SDK powering in-app copilots, interactive canvas workspaces, and agent-driven user interfaces.
 - **License**: MIT.
 - **Key Features**: AG-UI Protocol, context-aware sidebar copilots, generative UI components, and bi-directional application state synchronization.
 - **Best For**: Frontend engineers integrating custom AI agent assistants directly into existing web applications.
 
-#### 10. [AgentGPT](https://github.com/reworkd/AgentGPT) [![GitHub stars](https://img.shields.io/github/stars/reworkd/AgentGPT?style=social&color=white)](https://github.com/reworkd/AgentGPT/stargazers)
+#### 10. [AgentGPT](https://github.com/reworkd/AgentGPT) [![GitHub_Stars](https://img.shields.io/github/stars/reworkd/AgentGPT?style=social&color=white)](https://github.com/reworkd/AgentGPT/stargazers)
 - **Architecture**: Next.js + TypeScript web application for autonomous goal-seeking agents.
 - **License**: GPL-3.0.
 - **Key Features**: Visual objective breakdown, recursive agent task execution, memory retention, and web search integration.
 - **Best For**: Experimenting with recursive autonomous task planners in a zero-setup browser interface.
 
-#### 11. [Sim Studio](https://github.com/simstudioai/sim) [![GitHub stars](https://img.shields.io/github/stars/simstudioai/sim?style=social&color=white)](https://github.com/simstudioai/sim/stargazers)
+#### 11. [Sim Studio](https://github.com/simstudioai/sim) [![GitHub_Stars](https://img.shields.io/github/stars/simstudioai/sim?style=social&color=white)](https://github.com/simstudioai/sim/stargazers)
 - **Architecture**: Next.js + ReactFlow + PostgreSQL (pgvector). Designed as a collaborative "Figma for AI Agents".
 - **License**: PolyForm Shield 1.0.0 / Apache 2.0.
 - **Key Features**: Real-time collaborative canvas, natural language Copilot that creates and repairs nodes, webhook triggers, and HIPAA/SOC2 compliance.
 - **Best For**: Cross-functional product and engineering teams collaboratively designing complex agent graphs.
 
-#### 12. [Activepieces](https://github.com/activepieces/activepieces) [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
+#### 12. [Activepieces](https://github.com/activepieces/activepieces) [![GitHub_Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
 - **Architecture**: Modern TypeScript monorepo with an intuitive visual automation canvas.
 - **License**: MIT.
 - **Key Features**: Over 280+ community pieces ("apps"), with every integration automatically exposed as an MCP server for agents (Claude Desktop, Cursor, Windsurf).
 - **Best For**: Developers prioritizing 100% OSI-approved open source and AI-native MCP tool calling.
 
-#### 13. [Rivet](https://github.com/Ironclad/rivet) [![GitHub stars](https://img.shields.io/github/stars/Ironclad/rivet?style=social&color=white)](https://github.com/Ironclad/rivet/stargazers)
+#### 13. [Rivet](https://github.com/Ironclad/rivet) [![GitHub_Stars](https://img.shields.io/github/stars/Ironclad/rivet?style=social&color=white)](https://github.com/Ironclad/rivet/stargazers)
 - **Architecture**: Electron desktop application + Node.js/TypeScript graph runtime.
 - **License**: MIT.
 - **Key Features**: Visual graph debugging, step-by-step state inspection, execution replay, and embedding graphs inside backend microservices.
 - **Best For**: Platform engineers requiring deterministic, inspectable graph runtimes with zero external cloud lock-in.
 
-#### 14. [OpenRigor](https://github.com/wangyunjeff/OpenRigor) [![GitHub stars](https://img.shields.io/github/stars/wangyunjeff/OpenRigor?style=social&color=white)](https://github.com/wangyunjeff/OpenRigor/stargazers)
+#### 14. [OpenRigor](https://github.com/wangyunjeff/OpenRigor) [![GitHub_Stars](https://img.shields.io/github/stars/wangyunjeff/OpenRigor?style=social&color=white)](https://github.com/wangyunjeff/OpenRigor/stargazers)
 - **Architecture**: Clean-room persistent AI workspace built with modern web technologies and real Codex app-server execution.
 - **License**: MIT.
 - **Key Features**: Durable runs that survive client disconnects, sandboxed tool runs, replayable SSE event streams, and inspectable artifact delivery.
@@ -292,7 +292,7 @@ Contributions are warmly welcomed! Help keep this ecosystem guide up-to-date by 
 3. 📝 **Add your entry** following the established format:
    - Platform name and official URL.
    - For SaaS: Company scale (valuation/revenue), exact starting pricing, exact free tier limit, and core canvas features.
-   - For Open-Source: GitHub repo link, star count badge, license, and architectural description.
+   - For Open-Source: GitHub repo link, Stars_Count badge, license, and architectural description.
 4. ✅ **Ensure accuracy**: Verify that all pricing, free tier limits, and links are up to date.
 5. 🚀 **Submit a Pull Request** with a concise summary of the changes.
 
